@@ -1,0 +1,24 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "A great boilerplate fully configured",
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thomaschaf@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "expo": "^17.0.0",
+    "react": "16.0.0-alpha.6",
+    "react-native": "^0.44.0"
+  },
+  "devDependencies": {
+    "react-native-scripts": "0.0.31",
+    "jest-expo": "~1.0.1",
+    "react-test-renderer": "16.0.0-alpha.6"
+  }
+}
