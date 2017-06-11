@@ -5,13 +5,16 @@ const style = StyleSheet.create({
   main: {
     top: 30,
     left: 10
+  },
+  text: {
+    color: 'red'
   }
 })
 
 const HomePageComponent = () => {
   return (
     <View style={style.main}>
-      <Text>Hello world</Text>
+      <Text style={style.text}>Hello world</Text>
     </View>
   )
 }
