@@ -5,7 +5,7 @@ let store = null
 
 export default function (opts = {}) {
   let _store
-  if (!process.browser || !reduxStore) {
+  if (!process.browser || !store) {
     _store = createStore(reducers())
 
     if (!process.browser) {
