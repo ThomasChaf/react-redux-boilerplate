@@ -5,7 +5,7 @@
             "module-resolver", {
                 "root": ["./components"],
                 "alias": {
-                    "common": "./common",
+                    "common": "/Users/chafiol/Documents/Epitech/Boilerplate/common/build"
                 }
             }
         ]
