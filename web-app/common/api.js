@@ -1,4 +1,5 @@
 import * as apisauce from 'apisauce'
+import _ from 'lodash'
 
 class API {
   client = {}

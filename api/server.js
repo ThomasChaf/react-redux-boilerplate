@@ -16,6 +16,10 @@ router.get('/action_1', function(req, res) {
   res.json({ message: 'Success' })
 })
 
+router.post('/action_2', function(req, res) {
+  res.json({ message: 'Success' })
+})
+
 app.use('/api', router)
 app.listen(port)
 console.log('Api running on port ' + port)

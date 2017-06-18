@@ -13,6 +13,7 @@
   "dependencies": {
     "apisauce": "^0.13.0",
     "babel-polyfill": "^6.23.0",
+    "lodash": "^4.17.4",
     "next": "^2.4.1",
     "next-routes": "^1.0.27",
     "nextjs": "2.4.1",
@@ -21,6 +22,7 @@
     "react-redux": "^5.0.5",
     "redux": "^3.6.0",
     "redux-devtools": "^3.4.0",
+    "redux-form": "^6.8.0",
     "redux-thunk": "^2.2.0"
   },
   "devDependencies": {
