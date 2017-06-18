@@ -2,14 +2,20 @@ import { connect } from 'react-redux'
 import { actions } from 'common'
 import Component from './component'
 
-const mapStateToProps = (state) => ({
-  value: 'test'
-})
+const mapStateToProps = (state) => {
+  console.log('======= STATE ======');
+  console.log(state)
+  return {
+    clicked: state.example.example_1.clicked
+  }
+}
 
 const mapDispatchToProps = (dispatch) => {
-  console.log(actions);
   return {
-    test: 'eadzs'
+    action_1: () => {
+      console.log('JE CALL EXEMPLA AC 1');
+      dispatch(actions.example.action_1())
+    }
   }
 }
 

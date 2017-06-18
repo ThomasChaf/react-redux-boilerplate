@@ -1,18 +1,17 @@
 import { combineReducers } from 'redux'
 import * as actionTypes from '../actionTypes'
 
-function reducer_1(state = {}, action) {
+function example_1(state = { clicked: false }, action) {
+  console.log('HERE IS:', action)
   switch (action.type) {
     case actionTypes.ACTION_EXAMPLE_1:
-      return { key1: 'value1' }
-    case actionTypes.ACTION_EXAMPLE_2:
-      return { key2: 'value2' }
+      return { clicked: true }
     default:
       return state
   }
 }
 
-function reducer_2(state = {}, action) {
+function example_2(state = {}, action) {
   switch (action.type) {
     case actionTypes.ACTION_EXAMPLE_1:
     case actionTypes.ACTION_EXAMPLE_2:
@@ -23,6 +22,6 @@ function reducer_2(state = {}, action) {
 }
 
 export default combineReducers({
-  reducer_1,
-  reducer_2
+  example_1,
+  example_2
 })

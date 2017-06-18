@@ -61,10 +61,4 @@ class API {
   }
 }
 
-let instance
-export default (apiUrl) => {
-  if (apiUrl) {
-    instance = new API(apiUrl)
-  }
-  return instance
-}
+export default new API('http://localhost:3001/api')
