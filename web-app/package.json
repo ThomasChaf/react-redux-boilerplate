@@ -16,7 +16,6 @@
     "lodash": "^4.17.4",
     "next": "^2.4.1",
     "next-routes": "^1.0.27",
-    "nextjs": "2.4.1",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-redux": "^5.0.5",
