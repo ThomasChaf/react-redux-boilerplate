@@ -3,9 +3,9 @@
     "plugins": [
         [
             "module-resolver", {
-                "root": ["./components"],
+                "root": ["./web-app/components"],
                 "alias": {
-                    "common": "/Users/chafiol/Documents/Epitech/Boilerplate/common/build"
+                    "common": "./common/build"
                 }
             }
         ]

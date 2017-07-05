@@ -1,11 +1,11 @@
-require('babel-polyfill')
 const { createServer } = require('http')
 const fs = require('fs')
 const next = require('next')
 const routes = require('./routes')
 const dev = process.env.NODE_ENV !== 'production'
 const port = process.env.APP_PORT || 3000
-const app = next({ dev })
+console.log(__dirname)
+const app = next({ dev, dir: __dirname })
 const handler = routes.getRequestHandler(app)
 
 async function main() {

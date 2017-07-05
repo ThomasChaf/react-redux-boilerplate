@@ -14,11 +14,14 @@
   "dependencies": {
     "expo": "^17.0.0",
     "react": "16.0.0-alpha.6",
-    "react-native": "^0.44.0"
+    "react-native": "^0.44.0",
+    "redux-form": "^6.8.0",
+    "redux-thunk": "^2.2.0"
   },
   "devDependencies": {
-    "react-native-scripts": "0.0.31",
+    "babel-plugin-module-resolver": "^2.7.1",
     "jest-expo": "~1.0.1",
+    "react-native-scripts": "0.0.31",
     "react-test-renderer": "16.0.0-alpha.6"
   }
 }

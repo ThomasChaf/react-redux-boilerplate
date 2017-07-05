@@ -1,21 +1,25 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
+import Example1 from 'example_1/container'
+import Example2 from 'example_2/container'
+import ReduxProvider from './_provider'
 
 const style = StyleSheet.create({
   main: {
     top: 30,
     left: 10
-  },
-  text: {
-    color: 'red'
   }
 })
 
 const HomePageComponent = () => {
   return (
-    <View style={style.main}>
-      <Text style={style.text}>Hello world</Text>
-    </View>
+    <ReduxProvider>
+      <View style={style.main}>
+        <h1>Hello world !</h1>
+        <Example1 />
+        <Example2 />
+      </View>
+    </ReduxProvider>
   )
 }
 
