@@ -1,21 +1,25 @@
 import React from 'react'
+import { Text, TextInput, TouchableOpacity, View } from 'react-native'
 import { reduxForm, Field } from 'redux-form'
 
+const renderInput = ({ input: { onChange, ...restInput }, ...props}) => {
+  return <TextInput style={{height: 20}} onChangeText={onChange} {...restInput} {...props} />
+}
+
 const FormComponent = (props) => (
-  <form onSubmit={props.handleSubmit}>
+  <View>
     <Field
       name="name"
-      component="input"
-      type="text"
+      component={renderInput}
       placeholder="Type here" />
-    <br />
     <Field
       name="birthday"
-      component="input"
+      component={renderInput}
       type="date" />
-    <br />
-    <button>Add</button>
-  </form>
+    <TouchableOpacity onPress={props.handleSubmit}>
+      <Text>Add</Text>
+    </TouchableOpacity>
+  </View>
 )
 
 export default reduxForm({

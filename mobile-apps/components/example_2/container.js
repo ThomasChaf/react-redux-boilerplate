@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 import { reset } from 'redux-form'
-// import { actions } from 'common'
+import { actions } from 'common'
 import Component from './component'
 
 const mapStateToProps = (state) => ({

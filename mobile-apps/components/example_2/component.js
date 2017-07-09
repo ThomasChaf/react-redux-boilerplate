@@ -1,14 +1,15 @@
 import React from 'react'
+import { Text, TouchableHighlight, View } from 'react-native'
 import Form from './form'
 
 const Example2Component = (props) => (
-  <div>
-    <p>Component 2</p>
+  <View>
+    <Text>Component 2</Text>
     <Form onSubmit={props.action_2} />
     {
-      props.humans.map((human, key) => (<span key={key}>{human.name}<br /></span>))
+      props.humans.map((human, key) => (<Text key={key}>{human.name}></Text>))
     }
-  </div>
+  </View>
 )
 
 export default Example2Component
