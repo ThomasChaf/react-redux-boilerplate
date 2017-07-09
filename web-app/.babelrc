@@ -3,10 +3,7 @@
     "plugins": [
         [
             "module-resolver", {
-                "root": ["./web-app/components"],
-                "alias": {
-                    "common": "./common/build"
-                }
+                "root": ["./components"],
             }
         ]
     ]

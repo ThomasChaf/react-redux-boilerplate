@@ -15,9 +15,9 @@ const HomePageComponent = () => {
   return (
     <ReduxProvider>
       <View style={style.main}>
-        <h1>Hello world !</h1>
+        <Text>Hello world !</Text>
         <Example1 />
-        <Example2 />
+        {/* <Example2 /> */}
       </View>
     </ReduxProvider>
   )
