@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A great boilerplate fully configured",
   "scripts": {
-    "build": "babel . --ignore node_modules,build --out-dir ./build && babel . --ignore node_modules,build --out-dir ../mobile-apps/node_modules/common",
+    "build": "babel . --ignore node_modules,build --out-dir ../web-app/node_modules/common && babel . --ignore node_modules,build --out-dir ../mobile-apps/node_modules/common",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "thomaschaf@gmail.com",
