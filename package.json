@@ -5,7 +5,8 @@
     "author": "thomaschaf@gmail.com",
     "license": "ISC",
     "scripts": {
-      "web": "babel-node web-app/server.js"
+      "web": "babel-node web-app/server.js",
+      "boilerplate": "babel-node scripts/index.js"
     },
     "dependencies": {
         "apisauce": "^0.13.0",

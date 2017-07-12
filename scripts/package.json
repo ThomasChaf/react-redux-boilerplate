@@ -1,0 +1,16 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "I great boilerplate fully configured",
+  "main": "index.js",
+  "author": "thomaschaf@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "yargs": "^8.0.2"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  }
+}
