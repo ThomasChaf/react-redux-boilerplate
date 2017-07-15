@@ -1,40 +1,39 @@
 {
-    "name": "react-redux-native-boilerplate",
-    "version": "1.0.0",
-    "description": "I great boilerplate fully configured",
-    "author": "thomaschaf@gmail.com",
-    "license": "ISC",
-    "scripts": {
-      "web": "babel-node web-app/server.js",
-      "boilerplate": "babel-node scripts/index.js"
-    },
-    "dependencies": {
-        "apisauce": "^0.13.0",
-        "babel": "^6.23.0",
-        "babel-runtime": "^6.23.0",
-        "babel-polyfill": "^6.23.0",
-        "expo": "^17.0.0",
-        "lodash": "^4.17.4",
-        "next": "^2.4.1",
-        "next-routes": "^1.0.27",
-        "react": "^15.6.1",
-        "react-dom": "^15.5.4",
-        "react-redux": "^5.0.5",
-        "redux": "^3.6.0",
-        "redux-devtools": "^3.4.0",
-        "redux-form": "^6.8.0",
-        "react-native": "^0.44.0",
-        "react-redux": "^5.0.5",
-        "redux-thunk": "^2.2.0"
-    },
-    "devDependencies": {
-        "babel-plugin-module-resolver": "^2.7.1",
-        "babel-preset-es2015": "^6.24.1",
-        "babel-preset-react": "^6.24.1",
-        "babel-preset-stage-0": "^6.24.1",
-        "babel-cli": "^6.24.1",
-        "babel-plugin-transform-runtime": "^6.23.0",
-        "jest-expo": "~1.0.1",
-        "react-native-scripts": "0.0.31"
-    }
+  "name": "react-redux-native-boilerplate",
+  "version": "1.0.0",
+  "description": "I great boilerplate fully configured",
+  "author": "thomaschaf@gmail.com",
+  "license": "ISC",
+  "scripts": {
+    "web": "babel-node web-app/server.js",
+    "boilerplate": "babel-node scripts/index.js"
+  },
+  "dependencies": {
+    "apisauce": "^0.13.0",
+    "babel": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-runtime": "^6.23.0",
+    "expo": "^17.0.0",
+    "lodash": "^4.17.4",
+    "next": "^2.4.1",
+    "next-routes": "^1.0.27",
+    "react": "^15.6.1",
+    "react-dom": "^15.5.4",
+    "react-native": "^0.44.0",
+    "react-redux": "^5.0.5",
+    "redux": "^3.6.0",
+    "redux-devtools": "^3.4.0",
+    "redux-form": "^6.8.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-plugin-module-resolver": "^2.7.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "jest-expo": "~1.0.1",
+    "react-native-scripts": "0.0.31"
+  }
 }
