@@ -6,7 +6,7 @@ const Example1Component = (props) => {
     <div>
       <p>Component 1</p>
       <button onClick={props.action_1}>Action 1</button>
-      {props.clicked ? 'Button already been clicked' : 'Button has never been clicked'}
+      <span>{props.clicked ? 'Button already been clicked' : 'Button has never been clicked'}</span>
     </div>
   )
 }
