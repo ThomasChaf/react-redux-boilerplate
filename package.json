@@ -8,6 +8,9 @@
     "web": "babel-node web-app/server.js",
     "boilerplate": "babel-node scripts/index.js"
   },
+  "bin": {
+    "react-redux-native-boilerplate": "./bin/index.js"
+  },
   "dependencies": {
     "apisauce": "^0.13.0",
     "babel": "^6.23.0",
