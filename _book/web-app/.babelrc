@@ -1,0 +1,10 @@
+{
+    "presets": ["next/babel", "react", "es2015", "stage-0"],
+    "plugins": [
+        [
+            "module-resolver", {
+                "root": ["./components"],
+            }
+        ]
+    ]
+}
