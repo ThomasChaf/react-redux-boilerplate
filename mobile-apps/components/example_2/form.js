@@ -8,11 +8,11 @@ const renderInput = ({ input: { onChange, ...restInput }, ...props}) => {
 
 const FormComponent = (props) => (
   <View>
-    <Field
+    <TextInput
       name="name"
       component={renderInput}
       placeholder="Type here" />
-    <Field
+    <TextInput
       name="birthday"
       component={renderInput}
       type="date" />
@@ -22,6 +22,4 @@ const FormComponent = (props) => (
   </View>
 )
 
-export default reduxForm({
-  form: 'example'
-})(FormComponent)
+export default FormComponent
